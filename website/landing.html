@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HEAD>
+<TITLE>The Water Cycle</TITLE>
+<link href="template.css" rel="stylesheet" type="text/css" media="screen">
+<script> function makeSound(soundobj) 
+		{ var thissound=document.getElementById(soundobj); thissound.play(); 
+	setTimeout( function() { window.location.href = '../website/index.html'; }, 500); } // change 1000 to whatever value you would want to wait in milliseconds.
+	</script>
+</HEAD>
+<BODY>
+
+
+	<div class="landing">
+	<IMG SRC="images/landing.svg" alt="landing"/>
+	</div>
+	
+	
+	<div class="audiobutton">
+    <audio id="audio1" src="http://www.flashkit.com/imagesvr_ce/flashkit/soundfx/Nature/Rain/Drip-Public_d-168/Drip-Public_d-168_hifi.mp3" controls preload="auto" autobuffer></audio>
+	</div>
+
+	<div class="enter">
+	<a href="#" onClick="makeSound('audio1')"><IMG SRC="../website/images/enter.svg" alt="landing"/></a>
+	</div>
+
+	
+
+</BODY>
+</HTML>
